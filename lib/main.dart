@@ -29,14 +29,6 @@ class MainApp extends StatelessWidget {
           ),
         ),
       ),
-      routes: {
-        'home': (context) {
-          return Scaffold(body: Center(child: Text('Home')));
-        },
-        'profile': (context) {
-          return Scaffold(body: Center(child: Text('Profile')));
-        },
-      },
       home: LoginPage(),
     );
   }
